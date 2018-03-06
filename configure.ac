@@ -4,7 +4,7 @@
 AC_PREREQ([2.69])
 AC_INIT(test, 1.0, [chen.kenyy@inventec.com])
 AC_CONFIG_SRCDIR([test.c])
-AM_INIT_AUTOMAKE(test, 1.0)
+AM_INIT_AUTOMAKE([subdir-objects -Wall -Werror foreign dist-xz])
 
 # Checks for programs.
 AC_PROG_CC
