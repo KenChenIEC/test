@@ -1,6 +1,4 @@
-sbin_PROGRAMS = test
-
-imc_PROGRAMS = imclog
+sbin_PROGRAMS = test imclog
 
 test_SOURCES = 	test.c 
 
